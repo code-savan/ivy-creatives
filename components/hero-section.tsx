@@ -109,7 +109,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mx-auto mt-8 md:max-w-5xl text-balance text-4xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                    We help brands grow by building websites that work.
+                                    We help brands glow up with ideas that actually stick.
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -117,8 +117,8 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     delay={0.5}
                                     as="p"
-                                    className="mx-auto md:mt-8 mt-4 max-w-2xl text-balance text-lg text-muted-foreground md:text-white">
-                                    We create websites and digital content that fit your brand perfectly, so you don’t have to worry about a thing.
+                                    className="mx-auto md:mt-8 mt-4 max-w-3xl text-balance text-lg text-muted-foreground md:text-white">
+                                    From campaigns that turn heads to content that people can’t scroll past, we give your brand the kind of spotlight it secretly dreams about, no caffeine overdose required.
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -132,7 +132,7 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-[10px] px-5 text-base">
                                             <Link href="#">
-                                                <span className="text-nowrap">Contact Ivy</span>
+                                                <span className="text-nowrap">Let’s Talk Magic</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -143,7 +143,7 @@ export default function HeroSection() {
                                         variant="ghost"
                                         className="h-10.5 rounded-[10px] px-5">
                                         <Link href="#">
-                                            <span className="text-nowrap">Book a Call</span>
+                                            <span className="text-nowrap">Book a Vibe Check</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
@@ -252,10 +252,10 @@ export default function HeroSection() {
                             </div>
                             <div className="flex">
                                 <img
-                                    className="mx-auto h-4 w-fit"
-                                    src="/nextjs.png"
+                                    className="mx-auto h-8 w-fit"
+                                    src="/adobe.png"
                                     alt="NextJS Logo"
-                                    height="28"
+                                    height="40"
                                     width="auto"
                                 />
                             </div>

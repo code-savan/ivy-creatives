@@ -8,7 +8,7 @@ export default function ContentSection() {
                 <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
                     <div className="relative mb-6 sm:mb-0">
                         <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl ">
-                            <Image src="/logo.png" className="hidden rounded-[15px] dark:block" alt="payments illustration dark" width={1207} height={929} />
+                            <Image src="/ceo.jpg" className="hidden rounded-[15px] dark:block grayscale" alt="payments illustration dark" width={1207} height={929} />
                             <Image src="/payments-light.png" className="rounded-[15px] shadow dark:hidden" alt="payments illustration light" width={1207} height={929} />
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function ContentSection() {
 
                         <div className="pt-6">
                             <blockquote className="border-l-4 pl-4">
-                                <p>At Ivy Creatives, we stand for innovation with purpose. Every project is an opportunity to merge design with functionality in a way that moves businesses forward. We are committed to building tools, stories, and platforms that help our clients thrive in a fast-moving digital world. Our mission is simple: create work that makes a measurable difference.</p>
+                                <p>At IVY, we believe every brand has a story worth telling and telling well. Our team blends strategy, creativity, and technology to craft experiences that don’t just look good, but move people to act. From concept to execution, we partner with you to turn bold ideas into measurable results, proving that great work speaks louder than words.</p>
 
                                 <div className="mt-6 space-y-3">
                                     <cite className="block font-medium">David ODAT, CEO</cite>
