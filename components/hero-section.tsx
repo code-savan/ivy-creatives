@@ -38,7 +38,10 @@ export default function HeroSection() {
     return (
         <>
             <HeroHeader />
-            <main className="overflow-hidden">
+            <main className="overflow-hidden relative">
+            <div className="w-full h-[550px] bg-gradient-to-r from-[#031B1B] via-[#052323]  to-[#031B1B] absolute top-0 left-0 opacity-60 blur-3xl rounded-b-[300px] overflow-hidden"/>
+
+
                 <div
                     aria-hidden
                     className="absolute inset-0 isolate hidden opacity-65 contain-strict lg:block">
@@ -84,7 +87,7 @@ export default function HeroSection() {
 
                         <div className="mx-auto max-w-7xl px-6">
                             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                                <AnimatedGroup variants={transitionVariants}>
+                                {/* <AnimatedGroup variants={transitionVariants}>
                                     <Link
                                         href="#"
                                         className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
@@ -102,7 +105,7 @@ export default function HeroSection() {
                                             </div>
                                         </div>
                                     </Link>
-                                </AnimatedGroup>
+                                </AnimatedGroup> */}
 
                                 <TextEffect
                                     preset="fade-in-blur"
