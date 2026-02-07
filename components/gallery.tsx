@@ -76,7 +76,7 @@ export default function Gallery() {
         ref={containerRef}
         className="flex overflow-x-scroll snap-x snap-mandatory scroll-smooth no-scrollbar gap-4 items-start h-[350px] md:h-[600px] overflow-y-hidden"
         style={{ WebkitOverflowScrolling: "touch" }}
-      >
+      > 
         <div className="flex-shrink-0 md:w-[30px] w-[20px] snap-start" />
         {images.map((src, i) => {
           // 2. Get custom dimensions for this image, if any
